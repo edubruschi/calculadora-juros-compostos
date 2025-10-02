@@ -1,9 +1,10 @@
 {
-    "Cen\u00e1rio base": {
+    "Cen\u00e1rio_400K": {
         "valor_inicial": 400000.0,
-        "aporte_mensal": 2000.0,
-        "taxa_anual": 14.9,
+        "aporte_mensal": 1500.0,
+        "taxa_juros": 12.0,
         "anos": 10,
-        "cdi_medio": 12.5
+        "meta_final": 0.0,
+        "cdi_medio": 11.5
     }
 }

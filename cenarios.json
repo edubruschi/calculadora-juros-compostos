@@ -1,0 +1,9 @@
+{
+    "Cen\u00e1rio base": {
+        "valor_inicial": 400000.0,
+        "aporte_mensal": 2000.0,
+        "taxa_anual": 14.9,
+        "anos": 10,
+        "cdi_medio": 12.5
+    }
+}

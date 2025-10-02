@@ -157,7 +157,14 @@ if meta_final > 0:
     if PMT < 0:
         st.error("Com os parâmetros atuais, a meta já é atingida sem aportes adicionais.")
     else:
-        st.success(f"Você precisa aportar aproximadamente **R$ {PMT:,.2f} por mês** para atingir R$ {meta_final:,.2f}.")
+        # st.success(f"Você precisará aportar aproximadamente R$ {PMT:,.2f} por mês para atingir a meta de R$ {meta_final:,.2f}.")
+        st.markdown(
+            f"<div style='background-color:#d4edda;padding:10px;border-radius:5px;color:#155724;'>"
+            f"Você precisará aportar aproximadamente <b>R$ {PMT:,.2f}</b> por mês para atingir a meta de <b>R$ {meta_final:,.2f}</b>."
+            f"</div>",
+            unsafe_allow_html=True
+        )
+
 
 # -----------------------------
 # Exportação CSV
